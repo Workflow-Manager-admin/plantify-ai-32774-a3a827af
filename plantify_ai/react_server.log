@@ -18,3 +18,19 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/plantify-ai-32774-a3a827af/plantify_ai/src'
+ERROR in ./src/App.js 6:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/plantify-ai-32774-a3a827af/plantify_ai/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/plantify-ai-32774-a3a827af/plantify_ai/src'
+ERROR in ./src/App.js 6:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/plantify-ai-32774-a3a827af/plantify_ai/src'
+
+webpack compiled with 1 error

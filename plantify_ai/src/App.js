@@ -1,6 +1,7 @@
+// PUBLIC_INTERFACE
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import AIAdvisor from './pages/AIAdvisor';

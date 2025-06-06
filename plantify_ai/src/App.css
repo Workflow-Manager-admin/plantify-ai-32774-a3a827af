@@ -1,18 +1,30 @@
 :root {
-  --base-light: #00ffff;
-  --base-dark: #00008b;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  /* Plantify AI brand palette */
+  --primary: #4CAF50;
+  --primary-light: #66bb6a;
+  --secondary: #FFFFFF;
+  --accent: #FFC107;
+  --text-color: #232d13;
+  --text-secondary: #667763;
+  --border-color: rgba(76, 175, 80, 0.12);
+
+  /* UI tokens */
+  --card-bg: #f9fafb;
+  --paper: #fff;
+  --shadow: 0 2px 16px 0px rgba(40,60,48,0.06), 0 1.5px 4px rgba(76,175,80,0.0505);
+  --radius: 12px;
+  --section-gap: 40px;
 }
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--base-dark);
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--secondary);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 .app {

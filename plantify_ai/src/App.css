@@ -34,37 +34,44 @@ body {
 }
 
 .navbar {
-  background-color: var(--base-dark);
-  padding: 16px;
+  background: var(--card-bg);
+  box-shadow: 0 1px 10px 0 rgba(44, 80, 60, 0.035);
+  padding: 0;
+  border: none;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  width: 100%;
+  z-index: 1100;
+  height: 72px;
+  transition: box-shadow 0.14s;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--border-color);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-sizing: border-box;
-  z-index: 100;
 }
 
 .logo {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 9px;
+  color: var(--primary);
+  letter-spacing: 0.01em;
+  user-select: none;
 }
 
 .logo-symbol {
-  color: var(--base-light);
+  font-size: 1.5rem;
+  color: var(--accent);
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 28px;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex: 1;
 }
 
 .hero {
